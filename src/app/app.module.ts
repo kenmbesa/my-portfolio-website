@@ -10,6 +10,7 @@ import { MyProjectsComponent } from './components/my-projects/my-projects.compon
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { MaterialModule } from './material/material.module';
+import { LandingComponent } from './components/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MaterialModule } from './material/material.module';
     ContactMeComponent,
     BlogComponent,
     routingComponents,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,
