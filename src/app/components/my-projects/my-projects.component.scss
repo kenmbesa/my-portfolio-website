@@ -1,5 +1,68 @@
-p {
-  color: white;
-  margin-left: 1rem;
-  margin-top: 1rem;
+.body-container {
+  display: flex;
+  flex-direction: row;
+
+  .text-block {
+    background-color: rgb(20, 20, 20);
+    border-radius: 0.5rem;
+    height: 620px;
+    width: 50%;
+    padding: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+    h1 {
+      font-size: 2.5rem;
+      color: greenyellow;
+      margin-top: 8rem;
+      font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+      color: white;
+      margin-top: 2rem;
+      line-height: 2rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    button {
+      color: #101010;
+      background-color: greenyellow;
+      border: none;
+      border-radius: 5px;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      margin-top: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    button:hover {
+      color: #101010;
+      background-color: greenyellow;
+      border: none;
+      border-radius: 5px;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      margin-top: 1.5rem;
+      box-shadow: 1px 1px 20px 1px rgba(173, 255, 47, 0.5);
+    }
+  }
+
+  .skill-block {
+    background-color: rgb(20, 20, 20);
+    border-radius: 0.5rem;
+    height: 620px;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 1rem;
+
+    img {
+      width: 80%;
+    }
+  }
 }

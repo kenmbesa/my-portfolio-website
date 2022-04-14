@@ -12,16 +12,27 @@
     margin-top: 1rem;
 
     h1 {
-      font-size: 5rem;
+      font-size: 2.5rem;
       color: greenyellow;
       margin-top: 8rem;
       font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
     }
 
     p {
       color: white;
       margin-top: 2rem;
       line-height: 2rem;
+      font-family: 'Montserrat', sans-serif;
+
+      .projex-link {
+        color: greenyellow;
+        cursor: pointer;
+      }
+      .projex-link:hover {
+        font-style: italic;
+        cursor: pointer;
+      }
     }
 
     button {
@@ -34,6 +45,7 @@
       padding-top: 0.8rem;
       padding-bottom: 0.8rem;
       margin-top: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.5rem;
     }
 
