@@ -1,60 +1,68 @@
-mat-drawer-container {
-  height: 100vh;
-  width: 100vw;
+.body-container {
+  display: flex;
+  flex-direction: row;
 
-  mat-drawer {
-    background-color: #101010;
+  .text-block {
+    background-color: rgb(20, 20, 20);
+    border-radius: 0.5rem;
+    height: 620px;
+    width: 50%;
+    padding: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 
-    img {
-      background-color: #101010;
-      width: 100px;
-      margin-top: 2rem;
-      margin-left: 1rem;
+    h1 {
+      font-size: 5rem;
+      color: greenyellow;
+      margin-top: 8rem;
+      font-weight: 800;
     }
 
-    mat-list {
-      margin-top: 5rem;
+    p {
+      color: white;
+      margin-top: 2rem;
+      line-height: 2rem;
+    }
 
-      mat-list-item {
-        color: #fff;
-        cursor: pointer;
-        margin-top: .6rem;
+    button {
+      color: #101010;
+      background-color: greenyellow;
+      border: none;
+      border-radius: 5px;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      margin-top: 1.5rem;
+      font-size: 1.5rem;
+    }
 
-        mat-icon {
-          margin-right: 1rem;
-        }
-      }
-      mat-list-item:hover {
-        color: greenyellow;
-        cursor: pointer;
-        background-color: #131313;
-
-        mat-icon {
-          margin-right: 1rem;
-          color: greenyellow;
-        }
-      }
-      mat-list-item:focus {
-        color: greenyellow;
-        cursor: pointer;
-        background-color: #131313;
-
-        mat-icon {
-          margin-right: 1rem;
-          color: greenyellow;
-        }
-      }
+    button:hover {
+      color: #101010;
+      background-color: greenyellow;
+      border: none;
+      border-radius: 5px;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      margin-top: 1.5rem;
+      box-shadow: 1px 1px 20px 1px rgba(173, 255, 47, 0.5);
     }
   }
 
-  mat-drawer-content {
-    background-color: #131313;
+  .media-block {
+    background-color: rgb(20, 20, 20);
+    border-radius: 0.5rem;
+    height: 620px;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 1rem;
 
-    .toggle-sidenav {
-      cursor: pointer;
-      color: #fff;
-      margin-top: 2.5rem;
+    p {
+      color: white;
       margin-left: 1rem;
+      margin-top: 1rem;
     }
   }
 }
