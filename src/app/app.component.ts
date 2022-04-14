@@ -10,4 +10,11 @@ export class AppComponent {
 
   @HostBinding('@.disabled') //Disable animations in this component
   public animationsDisabled = true; // Set to true to disable animations
+
+  // playSound() {
+  //   let audio = new Audio();
+  //   audio.src = '..\src\assets\audio\swipe-sound.mp3';
+  //   audio.load();
+  //   audio.play();
+  // }
 }
