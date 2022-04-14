@@ -11,7 +11,6 @@ import { ContactMeComponent } from './components/contact-me/contact-me.component
 import { BlogComponent } from './components/blog/blog.component';
 import { MaterialModule } from './material/material.module';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +19,7 @@ import { MaterialModule } from './material/material.module';
     MyProjectsComponent,
     ContactMeComponent,
     BlogComponent,
-    routingComponents
+    routingComponents,
   ],
   imports: [
     BrowserModule,
