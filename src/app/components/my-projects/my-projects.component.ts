@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-my-projects',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-projects.component.scss']
 })
 export class MyProjectsComponent implements OnInit {
+  @HostBinding('@.disabled') //Disable animations in this component
+  public animationsDisabled = true; // Set to true to disable animations
 
   constructor() { }
 

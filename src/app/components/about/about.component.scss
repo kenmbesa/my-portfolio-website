@@ -7,7 +7,7 @@ mat-drawer-container {
 
     img {
       background-color: #101010;
-      width:100px;
+      width: 100px;
       margin-top: 2rem;
       margin-left: 1rem;
     }
@@ -18,13 +18,24 @@ mat-drawer-container {
       mat-list-item {
         color: #fff;
         cursor: pointer;
+        margin-top: .6rem;
 
         mat-icon {
           margin-right: 1rem;
         }
       }
       mat-list-item:hover {
-        color: #fff;
+        color: greenyellow;
+        cursor: pointer;
+        background-color: #131313;
+
+        mat-icon {
+          margin-right: 1rem;
+          color: greenyellow;
+        }
+      }
+      mat-list-item:focus {
+        color: greenyellow;
         cursor: pointer;
         background-color: #131313;
 
