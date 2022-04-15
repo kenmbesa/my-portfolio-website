@@ -11,7 +11,7 @@ mat-drawer-container {
       align-items: center;
       color: rgb(255, 255, 255);
       font-weight: 200;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
 
       img {
         background-color: #101010;
@@ -28,7 +28,7 @@ mat-drawer-container {
         color: #fff;
         cursor: pointer;
         margin-top: 0.6rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
 
         mat-icon {
           margin-right: 1rem;
@@ -39,20 +39,19 @@ mat-drawer-container {
         color: greenyellow;
         cursor: pointer;
         background-color: #131313;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
 
         mat-icon {
           margin-right: 1rem;
           color: greenyellow;
         }
-
       }
 
       mat-list-item:focus {
         color: greenyellow;
         cursor: pointer;
         background-color: #131313;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
 
         mat-icon {
           margin-right: 1rem;
@@ -66,20 +65,32 @@ mat-drawer-container {
     background-color: #131313;
     padding: 1rem;
 
-    .toggle-sidenav {
-      cursor: pointer;
-      color: greenyellow;
-      margin-top: 1.5rem;
-    }
-    .toggle-sidenav:hover {
-      cursor: pointer;
-      color: #fff;
-      margin-top: 1.5rem;
-    }
-    .toggle-sidenav:focus {
-      cursor: pointer;
-      color: #fff;
-      margin-top: 1.5rem;
+    .shared-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .social-icons {
+        color: #fff;
+        margin-top: 1.5rem;
+        padding-right: 1rem;
+      }
+
+      .toggle-sidenav {
+        cursor: pointer;
+        color: greenyellow;
+        margin-top: 1.5rem;
+      }
+      .toggle-sidenav:hover {
+        cursor: pointer;
+        color: #fff;
+        margin-top: 1.5rem;
+      }
+      .toggle-sidenav:focus {
+        cursor: pointer;
+        color: #fff;
+        margin-top: 1.5rem;
+      }
     }
   }
 }

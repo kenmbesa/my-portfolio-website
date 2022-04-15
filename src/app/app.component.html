@@ -45,9 +45,17 @@
     </mat-list>
   </mat-drawer>
   <mat-drawer-content>
-    <mat-icon class="toggle-sidenav" (click)="mySidenav.toggle()"
-      >menu</mat-icon
-    >
+    <div class="shared-icons">
+      <mat-icon class="toggle-sidenav" (click)="mySidenav.toggle()"
+        >menu</mat-icon
+      >
+      <div class="social-icons">
+        <mat-icon class="material-icons-outlined">settings</mat-icon>
+        <mat-icon>facebook</mat-icon>
+        <mat-icon>stwitter</mat-icon>
+      </div>
+    </div>
+
     <router-outlet></router-outlet>
   </mat-drawer-content>
 </mat-drawer-container>
