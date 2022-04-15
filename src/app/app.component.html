@@ -36,7 +36,7 @@
         >
         Contact
       </mat-list-item>
-      <mat-list-item routerLink="#">
+      <mat-list-item routerLink="/share">
         <mat-icon class="material-icons-outlined" class="sidenav-icon"
           >share</mat-icon
         >
@@ -44,16 +44,26 @@
       </mat-list-item>
     </mat-list>
   </mat-drawer>
+
   <mat-drawer-content>
     <div class="shared-icons">
       <mat-icon class="toggle-sidenav" (click)="mySidenav.toggle()"
         >menu</mat-icon
       >
-      <div class="social-icons">
-        <small>My Socials </small>
-        <mat-icon class="material-icons-outlined">settings</mat-icon>
-        <mat-icon>facebook</mat-icon>
-        <mat-icon>user</mat-icon>
+      <div class="apps-icon">
+        <small>My Businesses</small>
+        <mat-icon [matMenuTriggerFor]="menu">apps</mat-icon>
+        <mat-menu #menu="matMenu">
+          <a>
+            <button mat-menu-item>Pabzzy</button>
+          </a>
+          <a>
+            <button mat-menu-item>HelaBag</button>
+          </a>
+          <a>
+            <button mat-menu-item>Jedwali</button>
+          </a>
+        </mat-menu>
       </div>
     </div>
 

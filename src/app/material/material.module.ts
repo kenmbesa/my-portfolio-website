@@ -5,6 +5,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatMenuModule } from '@angular/material/menu';
 
 const materials = [
   MatSidenavModule,
@@ -12,7 +13,8 @@ const materials = [
   MatListModule,
   MatIconModule,
   MatDialogModule,
-  MatProgressBarModule
+  MatProgressBarModule,
+  MatMenuModule
 ]
 
 @NgModule({

@@ -70,7 +70,7 @@ mat-drawer-container {
       flex-direction: row;
       justify-content: space-between;
 
-      .social-icons {
+      .apps-icon {
         color: #fff;
         margin-top: 1.5rem;
         display: flex;
@@ -78,22 +78,25 @@ mat-drawer-container {
 
         small {
           color: greenyellow;
-          margin-right: 1rem;
-        }
-
-        small:hover {
-          color: #ffffff;
-          margin-right: 1rem;
+          margin-right: 0.5em;
+          font-family: "Montserrat", sans-serif;
         }
 
         mat-icon {
           padding-right: 0.5rem;
+          margin-top: -0.2rem;
         }
 
         mat-icon:hover {
           padding-right: 0.5rem;
           color: greenyellow;
         }
+
+        // mat-menu-item {
+        //   background-color: #101010;
+
+        //   color: greenyellow;
+        // }
       }
 
       .toggle-sidenav {
