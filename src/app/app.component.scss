@@ -73,7 +73,27 @@ mat-drawer-container {
       .social-icons {
         color: #fff;
         margin-top: 1.5rem;
-        padding-right: 1rem;
+        display: flex;
+        flex-direction: row;
+
+        small {
+          color: greenyellow;
+          margin-right: 1rem;
+        }
+
+        small:hover {
+          color: #ffffff;
+          margin-right: 1rem;
+        }
+
+        mat-icon {
+          padding-right: 0.5rem;
+        }
+
+        mat-icon:hover {
+          padding-right: 0.5rem;
+          color: greenyellow;
+        }
       }
 
       .toggle-sidenav {
