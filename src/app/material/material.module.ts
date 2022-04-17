@@ -6,6 +6,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { TextFieldModule } from '@angular/cdk/text-field';
 
 const materials = [
   MatSidenavModule,
@@ -14,7 +17,10 @@ const materials = [
   MatIconModule,
   MatDialogModule,
   MatProgressBarModule,
-  MatMenuModule
+  MatMenuModule,
+  MatInputModule,
+  MatSelectModule,
+  TextFieldModule
 ]
 
 @NgModule({

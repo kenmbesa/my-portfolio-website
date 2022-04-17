@@ -15,22 +15,29 @@
       font-size: 2.5rem;
       color: greenyellow;
       margin-top: 8rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       font-weight: 800;
       font-family: "Montserrat", sans-serif;
     }
 
     form {
-      
+      width: 100%;
 
-      input {
-        width: 98%;
-        height: 3rem;
-        margin-bottom: 1rem;
-        background-color: #101010;
-        border: none;
-        border-radius: 5px;
+      mat-form-field {
+        width: 100%;
+        color: #fff;
+
+        mat-label {
+          color: #fff !important;
+        }
+
+        .mat-input-element::placeholder {
+          color: white;
+          /* add placeholder css here */
+        }
       }
+      
+      // Change the color of the input box border in style.scss
 
       button {
         color: #101010;

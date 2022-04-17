@@ -2,21 +2,42 @@
   <div class="form-block">
     <h1>Talk 2 Me</h1>
     <form>
-      <div>
-        <input matInput />
-      </div>
-
-      <div>
-        <input matInput />
-      </div>
-
-      <div>
-        <input matInput />
-      </div>
-
-      <button>Send Message</button>
+      <mat-form-field floatLabel="auto" appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput required />
+      </mat-form-field>
+      <mat-form-field floatLabel="auto" appearance="outline">
+        <mat-label>I'm writing because...</mat-label>
+        <mat-select [(value)]="selectedValue" required>
+          <mat-option value="i want to say hi">I want to say hi</mat-option>
+          <mat-option value="i have a general question"
+            >I have a general question</mat-option
+          >
+          <mat-option value="i want us to work on a project"
+            >I want us to work on a project</mat-option
+          >
+          <mat-option value="i want to offer you a job"
+            >I want to offer you a job</mat-option
+          >
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Your message...</mat-label>
+        <textarea
+          matInput
+          cdkTextareaAutosize
+          #autosize="cdkTextareaAutosize"
+          cdkAutosizeMinRows="1"
+          cdkAutosizeMaxRows="5"
+          required
+        ></textarea>
+      </mat-form-field>
+      
+        <button>Submit</button>
+      
     </form>
   </div>
+
   <div class="media-block">
     <img src="" alt="" />
   </div>
