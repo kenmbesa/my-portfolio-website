@@ -16,14 +16,14 @@
       color: greenyellow;
       margin-top: 8rem;
       font-weight: 800;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
     }
 
     p {
       color: white;
       margin-top: 2rem;
       line-height: 2rem;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
     }
 
     button {
@@ -61,9 +61,20 @@
     padding: 2rem;
     margin-top: 1rem;
 
-    .project {
-      width: 48%;
-      background-color: greenyellow;
+    mat-grid-tile {
+      background-color: #101010;
+      border-radius: 1rem;
+      cursor: pointer;
+
+      color: #fff;
+    }
+
+    mat-grid-tile:hover {
+      background-color: #111111;
+      border-radius: 1rem;
+      cursor: pointer;
+
+      color: #fff;
     }
   }
 }
