@@ -3,7 +3,7 @@
   flex-direction: row;
 
   .text-block {
-    background-color: rgb(20, 20, 20);
+    background-color: #141414;
     border-radius: 0.5rem;
     height: 620px;
     width: 50%;
@@ -66,23 +66,23 @@
       border-radius: 1rem;
       cursor: pointer;
 
-      // mat-card {
-      //   background-color: #111111;
-      //   height: 199px;
-      //   width: 100%;
-      //   img {
-      //     height: 199px;
-      //     width: 100%;
-      //   }
-      // }
-    }
+      mat-card {
+        background-color: #252525;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+      }
 
-    mat-grid-tile:hover {
-      background-color: #111111;
-      border-radius: 1rem;
-      cursor: pointer;
-
-      color: #fff;
+      mat-card:hover {
+        background-color: #111111;
+        color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+      }
     }
   }
 }
