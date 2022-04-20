@@ -10,6 +10,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { TextFieldModule } from '@angular/cdk/text-field';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 const materials = [
   MatSidenavModule,
@@ -22,7 +23,8 @@ const materials = [
   MatInputModule,
   MatSelectModule,
   TextFieldModule,
-  MatGridListModule
+  MatGridListModule,
+  MatCardModule
 ]
 
 @NgModule({
