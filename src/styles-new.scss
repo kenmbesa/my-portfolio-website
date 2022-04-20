@@ -12,7 +12,7 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$my-portfolio-website-primary: mat.define-palette(mat.$orange-palette);
+$my-portfolio-website-primary: mat.define-palette(mat.$lime-palette, A700);
 $my-portfolio-website-accent: mat.define-palette(mat.$lime-palette, A700, A100, A400);
 
 // The warn palette is optional (defaults to red).
