@@ -11,6 +11,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { TextFieldModule } from '@angular/cdk/text-field';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 const materials = [
   MatSidenavModule,
@@ -24,7 +25,8 @@ const materials = [
   MatSelectModule,
   TextFieldModule,
   MatGridListModule,
-  MatCardModule
+  MatCardModule,
+  MatButtonModule
 ]
 
 @NgModule({
