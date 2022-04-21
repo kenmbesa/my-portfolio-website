@@ -30,9 +30,16 @@ mat-drawer-container {
         margin-top: 0.6rem;
         font-family: "Montserrat", sans-serif;
 
+        a { // Center align the word 'Share' with the icon
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
         mat-icon {
           margin-right: 1rem;
         }
+
       }
 
       mat-list-item:hover {
