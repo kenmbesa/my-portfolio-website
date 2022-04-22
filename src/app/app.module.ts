@@ -11,6 +11,9 @@ import { ContactMeComponent } from './components/contact-me/contact-me.component
 import { BlogComponent } from './components/blog/blog.component';
 import { MaterialModule } from './material/material.module';
 import { ShareDialogComponent } from './components/share-dialog/share-dialog.component';
+import { PabzzyComponent } from './components/my-businesses/pabzzy/pabzzy.component';
+import { HelabagComponent } from './components/my-businesses/helabag/helabag.component';
+import { JedwaliComponent } from './components/my-businesses/jedwali/jedwali.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { ShareDialogComponent } from './components/share-dialog/share-dialog.com
     BlogComponent,
     routingComponents,
     ShareDialogComponent,
+    PabzzyComponent,
+    HelabagComponent,
+    JedwaliComponent,
   ],
   entryComponents: [
     ShareDialogComponent
