@@ -7,17 +7,32 @@
     padding: 2rem;
     margin-right: 1rem;
     margin-top: 1rem;
+    color: greenyellow;
+    font-family: "Montserrat", sans-serif;
 
     mat-grid-tile {
       border-radius: 1rem;
 
       mat-card {
-        background-color: #252525;
+        background-color: #191919;
         color: #fff;
         display: flex;
         flex-direction: column;
         align-items: center;
         font-family: "Montserrat", sans-serif;
+
+        p {
+          text-align: center;
+        }
+      }
+      mat-card:hover {
+        background-color: #111111;
+        color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        cursor: pointer;
 
         p {
           text-align: center;
