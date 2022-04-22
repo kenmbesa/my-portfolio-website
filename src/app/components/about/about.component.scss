@@ -77,3 +77,17 @@
     }
   }
 }
+
+
+//Media queries
+@media only screen and (max-width: 600px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+
+    .text-block {
+      width: 98%;
+    }
+
+  }
+}
