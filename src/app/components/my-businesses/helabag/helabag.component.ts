@@ -11,5 +11,4 @@ export class HelabagComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
