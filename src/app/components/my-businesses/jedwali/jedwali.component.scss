@@ -41,3 +41,28 @@
     margin-top: 1rem;
   }
 }
+
+
+
+//Media queries
+@media only screen and (max-width: 600px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+
+    .text-block {
+      width: 80%;
+
+      h1 {
+        margin-top: -0.1em;
+        line-height: 3rem;
+      }
+
+    }
+
+    .app-statistics-block {
+      // margin-top: 3rem;
+      width: 80%;
+    }
+  }
+}
